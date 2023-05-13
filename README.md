@@ -5,7 +5,7 @@ Code for Dog Collar Localization system. Custom WIFI chip dog collar using RSSI 
 ## Steps:
 - 1) Install Mosquitto Broker on Server (NVIDIA Jetson in my case)
 - 2) run the Mosquitto Broker in the background 
--       - mosquitto -d
+-       mosquitto -d
 - 3) Configure your ESP8266 nodes
         - Upload Node Code (Recieving BLE packets --> pubishing to MQTT broker)
 - 4) Run the Web Server + MQTT Client code on the Server 
